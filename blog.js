@@ -1,4 +1,4 @@
-import { fetchData } from '/api.js';
+import { fetchData } from './api.js';
 
 export async function Blog(page = 1) {
   const app = document.getElementById('app');
