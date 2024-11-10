@@ -55,7 +55,7 @@ var currentScrollPos = window.pageYOffset;
   <script type="module" src="./api.js"></script>
   <script type="module" src="./post.js"></script>
   <script type="module">
-    import { Post } from '/post.js';
+    import { Post } from './post.js';
     document.addEventListener('DOMContentLoaded', () => {
       const params = new URLSearchParams(window.location.search);
       const slug = params.get('slug');
