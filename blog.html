@@ -53,10 +53,10 @@ var currentScrollPos = window.pageYOffset;
     <p>Cargando artículos...</p>
   </main>
   <div id="footer"></div>
-  <script type="module" src="/api.js"></script>
-  <script type="module" src="/blog.js"></script>
+  <script type="module" src="./api.js"></script>
+  <script type="module" src="./blog.js"></script>
   <script type="module">
-    import { Blog } from '/blog.js';
+    import { Blog } from './blog.js';
     document.addEventListener('DOMContentLoaded', () => {
       Blog();
     });
