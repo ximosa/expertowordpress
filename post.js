@@ -1,4 +1,4 @@
-import { fetchData } from '/api.js';
+import { fetchData } from './api.js';
 
 export async function Post() {
   const app = document.getElementById('app');
