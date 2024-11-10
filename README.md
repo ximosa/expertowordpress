@@ -40,3 +40,4 @@ El proyecto está organizado de la siguiente manera:
 
 ## Contribuciones
 
+Las contribuciones son bienvenidas.  Por favor, abre un issue o una pull request.

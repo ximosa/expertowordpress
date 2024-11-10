@@ -2,7 +2,7 @@ import { fetchData } from './api.js';
 
 export async function Blog(page = 1) {
   const app = document.getElementById('app');
-  app.innerHTML = '<h1>Blog</h1><p>Cargando artículos...</p>';
+  app.innerHTML = '<h1>Blog</h1><p>Cargando artículos...</p><progress class="circle large"></progress>';
 
   const postsPerPage = 10;
   let after = null;
