@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sitio Web Personal
 
 Este repositorio contiene el código fuente de mi sitio web personal, construido con HTML, CSS y JavaScript.  El sitio web incluye las siguientes páginas:
@@ -86,4 +85,3 @@ El proyecto está organizado de la siguiente manera:
 ## Contribuciones
 
 Las contribuciones son bienvenidas.  Por favor, abre un issue o una pull request.
->>>>>>> 6c1be356cd642369e218c7cdec5e2caa2827712a
