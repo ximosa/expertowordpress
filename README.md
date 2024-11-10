@@ -13,6 +13,7 @@ Este repositorio contiene el código fuente de mi sitio web personal, construido
 * HTML
 * CSS
 * JavaScript (incluyendo manejo de eventos, `fetch` API y manipulación del DOM)
+* **WPGraphQL:**  Se utiliza la API de WordPress a través de WPGraphQL para obtener los datos del blog.
 
 ## Estructura del Proyecto
 
@@ -28,14 +29,14 @@ El proyecto está organizado de la siguiente manera:
 * `main.js`:  Manejo de la navegación y carga de contenido dinámico.
 * `blog.js`:  Manejo de la carga de artículos del blog y la paginación.
 * `post.js`:  Manejo de la carga de artículos individuales del blog.
-* `api.js`:  Funciones para realizar peticiones a la API GraphQL.
+* `api.js`:  Funciones para realizar peticiones a la API GraphQL de WordPress.
 * `README.md`: Este archivo.
 
 ## Cómo Ejecutar el Proyecto
 
 1. Clona este repositorio.
-2. Abre los archivos HTML en tu navegador web.
+2. **Asegúrate de tener una instancia de WordPress configurada con el plugin WPGraphQL.**
+3. Abre los archivos HTML en tu navegador web.  Las peticiones a la API de WordPress se realizan a través de la URL especificada en `api.js`.  Ajusta esta URL si es necesario.
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas.  Por favor, abre un issue o una pull request.
