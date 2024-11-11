@@ -24,4 +24,4 @@ export async function fetchData(query, variables = {}) {
     console.error('Error en fetchData:', error);
     return null;
   }
-}
+ }

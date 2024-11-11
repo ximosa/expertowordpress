@@ -1,9 +1,7 @@
 import { fetchData } from './api.js';
-
 export async function Blog(page = 1) {
   const app = document.getElementById('app');
   app.innerHTML = '<h1>Blog</h1><p>Cargando artículos...</p><progress class="circle large"></progress>';
-
   const postsPerPage = 10;
   let after = null;
 
@@ -40,7 +38,7 @@ export async function Blog(page = 1) {
 
     app.innerHTML = data.posts.nodes.map(post => `
       <div class="responsive large-padding">
-        <h2><a href="post.html?slug=${post.slug}" data-link>${post.title}</a></h2>
+        <h2 class="small"><a href="post.html?slug=${post.slug}" data-link>${post.title}</a></h2>
         <p>${post.excerpt}</p>
       </div>
       <div class="medium-space"></div>
